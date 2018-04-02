@@ -4,4 +4,8 @@
 def key_for_min_value(name_hash)
     keys = name_hash.collect { |key, value| key }
     values = name_hash.collect { |key, value| value }
+    min_value = values[0]
+    key_for_min = keys[0]
+    values.each do |item|
+
 end
