@@ -10,4 +10,6 @@ def key_for_min_value(name_hash)
         if item < min_value
             key_for_min = key_for_min[values.index(item)]
         end
+    end
+    return key_for_min
 end
