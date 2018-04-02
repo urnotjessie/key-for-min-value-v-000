@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     key_for_min = keys[0]
     values.each do |item|
         if item < min_value
-            key_for_min = key_for_min[values.index(item)]
+            key_for_min = keys[values.index(item)]
         end
     end
     return key_for_min
